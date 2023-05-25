@@ -1,0 +1,6 @@
+stages:
+  load_data:
+    cmd: python src/data/load_data.py --config params.yaml
+    deps:
+    - src/data/load_data.py
+    - data/processed/train.csv

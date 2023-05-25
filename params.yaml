@@ -1,0 +1,2 @@
+data_config:
+  train_data:  data/processed/train.csv
